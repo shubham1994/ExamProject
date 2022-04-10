@@ -38,7 +38,7 @@ public class getAccountDataController {
     return accountWrapperList;
   //return [SELECT id, Name, Owner.Name,Phone, Website, AnnualRevenue FROM Account where Industry = 'Financial Services'];
   }
-
+  
   public class AccountWrapper{
     @AuraEnabled
     public String Id { get; set; }
